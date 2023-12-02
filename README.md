@@ -1,4 +1,10 @@
 # lanb - A cli tool to create symbolic links and hard links.
+
+![example](./images/example1.png)
+
+## Features
+- Automatically convert relative path to absolute path before create links.
+
 ## Installation
 Run the following Cargo command:
 ```
