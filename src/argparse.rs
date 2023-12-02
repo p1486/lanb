@@ -6,7 +6,7 @@ use crate::{
 use clap::{error::ErrorKind, Command, Parser};
 use filey::{FileTypes, Filey};
 
-/// lamb
+/// lanb
 ///
 /// Create symbolic links and hard links.
 ///

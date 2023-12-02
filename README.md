@@ -1,4 +1,4 @@
-# lamb - A cli tool to create symbolic links and hard links.
+# lanb - A cli tool to create symbolic links and hard links.
 ## Installation
 Run the following Cargo command:
 ```
@@ -7,13 +7,13 @@ cargo install lanb
 Or download prebuilt binary from the [GitHub release page](https://github.com/p1486/lanb/releases)
 
 ## Usage
-To create symbolic link `foo -> bar`:
+To create symbolic link `foo` -> `bar`:
 ```
 lanb foo bar
 ```
-If bar is a directory, this will create `foo -> bar/the_name_of_foo`.
+If bar is a directory, this will create `foo` -> `bar/the_name_of_foo`.
 
-If you specified three files or more, create symbolic link `nth -> last/name_of_nth_file`:
+If you specified three files or more, create symbolic link `nth` -> `last/name_of_nth_file`:
 ```
 lanb foo bar baz
 ```
