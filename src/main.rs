@@ -1,6 +1,5 @@
 mod actions;
 mod argparse;
-mod test;
 
 use crate::argparse::argparse;
 use std::process::exit;
